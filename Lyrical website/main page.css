@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.header{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 30px;
+}
+
+.latest_news{
+    height: 550px;
+    background-color: white;
+    display: flex;
+    /*margin: 10px;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.latest_news > div{
+    padding: 15px;
+    flex: 1 1 auto;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest_release{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom: 0px;
+}
+
+.latest_release h1{ 
+    font-size: 35px;
+    font-family: cooper;
+}
+
+.latest_release p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+
+.karma_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 165, 10);
+}
+
+.upcoming_release{
+    background-color: rgb(226, 165, 10);
+    margin-top: 0px;
+}
+
+.upcoming_release h1{ 
+    font-size: 35px;
+    font-family: cooper;
+    color: whitesmoke;
+}
+
+.upcoming_release p{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.songs{
+    height: 550px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.songs > div{
+    margin: 20px;
+    padding: 15px;
+    flex-grow: 1;
+    flex: 1 0 auto;
+    border: 2px solid whitesmoke;
+}
+
+.MHN{
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.MYP{
+    background-color: rgb(226, 165, 10);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.songs h1{
+    font-size: 35px;
+}
+
+.songs ul li{
+    font-size: 25px;
+    list-style-type: none;
+    text-align: center;
+}
